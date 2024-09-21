@@ -1,0 +1,55 @@
+body{
+    background-color: #f5f5f5;
+    font-family: lato;
+    margin: 40px;
+}
+.logo{
+    width: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+section{
+    padding: 20px;
+}
+
+.hero h1{
+    font-size: 100px;
+    margin: 0px;
+}
+#herotext{
+    font-size: 30px;
+
+}
+button{
+    background-color: rgb(28, 27, 27);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #f5f5f5;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(211, 207, 207);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #4b4b4b;
+    border-radius: 10px;
+}
+.block{
+    width: 320px;
+}
+#service{
+    font-size:50px;
+}
